@@ -1,0 +1,14 @@
+{
+  "name": "C++ Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
